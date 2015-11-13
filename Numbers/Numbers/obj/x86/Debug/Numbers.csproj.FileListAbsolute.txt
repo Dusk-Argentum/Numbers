@@ -3,3 +3,7 @@ C:\Users\eahscs\AppData\Local\Temporary Projects\Numbers\bin\Debug\Numbers.pdb
 C:\Users\eahscs\AppData\Local\Temporary Projects\Numbers\obj\x86\Debug\Numbers.exe
 C:\Users\eahscs\AppData\Local\Temporary Projects\Numbers\obj\x86\Debug\Numbers.pdb
 C:\Users\eahscs\documents\visual studio 2010\Projects\Numbers\Numbers\obj\x86\Debug\Numbers.exe
+C:\Users\eahscs\Desktop\Numbers\Numbers\Numbers\obj\x86\Debug\Numbers.exe
+C:\Users\eahscs\Desktop\Numbers\Numbers\Numbers\bin\Debug\Numbers.exe
+C:\Users\eahscs\Desktop\Numbers\Numbers\Numbers\bin\Debug\Numbers.pdb
+C:\Users\eahscs\Desktop\Numbers\Numbers\Numbers\obj\x86\Debug\Numbers.pdb

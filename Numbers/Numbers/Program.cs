@@ -13,26 +13,27 @@ namespace Numbers
             Random r = new Random();
 
             Console.WriteLine("Think of a number between 0 and 100.");
+            int low = 0, high = 100;
+
             while(true)
                 {
-                    while (true)
-                    {
-                        int val = r.Next(0, 100);
-                    }
-                    Console.Write("Is it {0}?", val);
+                    int val = r.Next(low,high);
+                    Console.WriteLine("Is it {0}?", val);
                     ConsoleKeyInfo key = Console.ReadKey();
 
                     if (key.KeyChar == 'h')
                     {
-                        Console.Write("Higher. HIGHER!");
+                        Console.WriteLine("Higher. HIGHER!");
+                        low = val;
                     }
                     else if (key.KeyChar == 'l')
                     {
-                        Console.Write("Lower. LOOOOOOOOOOOWER!!!");
+                        Console.WriteLine("Lower. LOOOOOOOOOOOWER!!!");
+                        high = val;
                     }
                     else if (key.KeyChar == 'e')
                     {
-                        Console.WriteLine("Correct! Congratulations to me and you suck and I win! You should feel bad for picking a shitty number.  Also you smell and your mother doesn't love you.");
+                        Console.WriteLine("Correct! Congratulations to me and you suck and I win! You should feel bad for picking a shitty number.  Also you smell and your mother doesn't love you. Additionally, your intelligence is completely pitiful and you need to go back to Kindergarten. Idiot. Baka. Git rekt.");
                         break;
                     }
             }
